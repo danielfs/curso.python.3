@@ -1,0 +1,7 @@
+print( "Olá mundo!" )
+print( "Olá mundo novamente" )
+print( "Eu 'gosto' de digitar isto" )
+print( "Isto é divertido" )
+print( 'Oba! Saída no console' )
+print( 'Curso de "Python 2", só que não :)' )
+print( 'Não toque nisto' )
