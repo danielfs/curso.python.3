@@ -1,30 +1,36 @@
-def adicao(a, b):
-    print("Adicionando %d + %d" % (a, b))
-    return a + b
-
-def subtracao(a, b):
-    print("Subtraindo %d - %d" % (a, b))
-    return a - b
-
-def multiplicacao(a, b):
-    print("Multiplicando %d * %d" % (a, b))
-    return a * b
-
-def divisao(a, b):
-    print("Dividindo %d / %d" % (a, b))
-    return a / b
+from sys import argv
 
 
-print("Vamos fazer um pouco de cálculos matemáticos com funções")
+def imprimir_tudo(arquivo_entrada):
+    with open(arquivo_entrada) as arquivo:
+        print(arquivo.read())
 
-idade = adicao(30, 5)
-altura = subtracao(78, 4)
-peso = multiplicacao(90, 2)
-qi = divisao(100, 2)
 
-print("Idade: %d, Altura: %d, Peso: %d, QI: %d" % (idade, altura, peso, qi))
+def imprimir_uma_linha(linha, arquivo_entrada):
+    with open(arquivo_entrada) as arquivo:
+        print(linha, arquivo.readline())
 
-# Um desafio valendo pontos extras.
-desafio = adicao(idade, subtracao(altura, multiplicacao(peso, divisao(qi, 2))))
 
-print("O resultado é:", desafio, "Você pode fazer isso mentalmente?")
+def rebobinar(arquivo_entrada):
+    with open(arquivo_entrada) as arquivo:
+        arquivo.seek(0)
+
+
+script, arquivo_entrada = argv
+
+print("Vamos primeiramente imprimir todo o arquivo:\n")
+imprimir_tudo(arquivo_entrada)
+
+print("Agora vamos rebobinar, como um tipo de fita.")
+rebobinar(arquivo_entrada)
+
+print("Vamos imprimir 3 linhas, uma de cada vez:")
+
+linha_atual = 1
+imprimir_uma_linha(linha_atual, arquivo_entrada)
+
+linha_atual = linha_atual + 1
+imprimir_uma_linha(linha_atual, arquivo_entrada)
+
+linha_atual = linha_atual + 1
+imprimir_uma_linha(linha_atual, arquivo_entrada)
