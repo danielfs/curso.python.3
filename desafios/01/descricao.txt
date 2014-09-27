@@ -1,0 +1,14 @@
+O arquivo 'dados.in' possui 200 alunos.
+
+Os dados estão dispostos da seguinte maneira:
+
+nome;turma;nota1;nota2;nota3;nota4;nota5
+
+Escreva um programa que leia este arquivo,
+e mostre as seguintes informações:
+
+	* quantidade de alunos por turma
+	* média de pontos por turma
+	* maior e menor nota por turma, com base na média do aluno
+	* média de pontos da escola
+	* maior e menor nota da escola
