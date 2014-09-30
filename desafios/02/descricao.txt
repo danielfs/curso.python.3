@@ -1,0 +1,24 @@
+Caça-Palavras
+
+A civilização do planeta Raxacoricofallapatorious adora caça-palavras.
+Apesar de sua grande inteligência, eles ainda não criaram computadores,
+e portanto ainda não sabem programar, no entanto são bons em teletransporte,
+e poderiam chegar ao planeta Terra em 42 segundos, se assim desejassem.
+
+E eles querem! Chegaram!
+
+Eles ameaçam destruir o planeta Terra se vencerem o desafio do caça-palavras,
+sua maior habilidade. Será que conseguiremos salvar nosso lar?
+
+Sua tarefa é:
+
+	* Encontrar as palavras da frase:
+		PYTHON, CADA VEZ MAIS COBRA.
+	* Anotar o número das linhas onde a palavra se encontra.
+	* Exibir a soma dos números encontrados.
+
+Utilize todo o seu conhecimento sobre Expressões Regulares e Python e mostre aos
+Raxacoricofallapatorianos que os humanos ainda pertencem ao planeta Terra.
+
+Referência sobre Expressões Regulares:
+	https://docs.python.org/3.4/library/re.html
