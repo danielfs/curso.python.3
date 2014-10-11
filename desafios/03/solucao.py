@@ -1,5 +1,6 @@
 import json
 import urllib.request as request
+import urllib.parse   as parse
 
 def get_autenticacao():
     arquivo_credenciais = open('credenciais.json')
@@ -35,7 +36,7 @@ def get_pagina(pesquisa):
 
 def iniciar():
     pesquisa = input('Digite o termo de pesquisa: ')
-    conteudo = get_pagina(pesquisa)
+    conteudo = get_pagina(parse.quote_plus(pesquisa))
     
     conteudo_json = json.loads(conteudo)
     
