@@ -12,7 +12,7 @@ print( "É verdade que 3 + 2 < 5 - 7?" )
 print( 3 + 2 < 5 - 7 )
 print( "O que é 3 + 2?", 3 + 2 )
 
-print( "O que é 5 - 7?", 5 - 7 )
+print( "Quanto é 5 - 7?", 5 - 7 )
 
 print( "Oh, agora eu sei porque é falso." )
 
