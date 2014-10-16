@@ -1,8 +1,0 @@
-Construir um programa que solicita um termo de pesquisa ao usuário,
-realiza uma pesquisa no Wikipedia e mostra o resultado encontrado.
-
-Referências:
-	* Expressões Regulares
-	* https://docs.python.org/3/library/urllib.request.html#examples
-	* https://www.mediawiki.org/wiki/API:Main_page
-	* http://pt.wikipedia.org/wiki/Especial:ApiSandbox
