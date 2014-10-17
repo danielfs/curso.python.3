@@ -1,0 +1,7 @@
+Construir um programa que captura o HTML da página do globoesporte.com
+e exibe a tabela de classificação do brasileirão 2014.
+
+Referências:
+	* http://globoesporte.globo.com/futebol/brasileirao-serie-a/
+	* http://mkaz.com/2012/10/10/python-string-format/
+	* https://docs.python.org/3/library/html.parser.html
