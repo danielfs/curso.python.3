@@ -1,0 +1,6 @@
+Escrever um programa que leia o arquivo do desafio 01
+e crie uma planilha no docs com os dados dele.
+
+Referências:
+
+	* https://github.com/burnash/gspread
