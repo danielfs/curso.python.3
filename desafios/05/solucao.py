@@ -1,5 +1,5 @@
 import gspread
-gc = gspread.login('cursopython3@gmail.com', 'cursopython3unipam')
+gc = gspread.login('<seu-email>@gmail.com', '<sua-senha>')
 sh = gc.open('Dados da Escola')
 planilha = sh.add_worksheet(title="Daniel", rows="201", cols="7")
 
